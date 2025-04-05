@@ -20,11 +20,15 @@
 }
 
 .productsArea {
-  display: flex;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  text-align: center;
   justify-content: center;
-  margin-top: 2rem;
-  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 25px;
+  max-width: var(--max-width);
 }
 
 .productsCard {

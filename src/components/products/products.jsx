@@ -104,26 +104,6 @@ const Products = () => {
               <a href="">Comprar</a>
             </div>
           </div>
-          <div className={styles.productsCard}>
-            <div className={styles.imgProduct}>
-              <img src={Masters} alt="Masters" />
-            </div>
-            <h3>UNO® Masters</h3>
-            <h4>R$ 34,99</h4>
-            <div className={styles.btnBuy}>
-              <a href="">Comprar</a>
-            </div>
-          </div>
-          <div className={styles.productsCard}>
-            <div className={styles.imgProduct}>
-              <img src={Original} alt="Masters" />
-            </div>
-            <h3>UNO® Original</h3>
-            <h4>R$ 29,90</h4>
-            <div className={styles.btnBuy}>
-              <a href="">Comprar</a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
