@@ -1,0 +1,62 @@
+.benefitsHero {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.heroContainer h2 {
+  font-size: 35px;
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+.heroContainer p {
+  font-size: 22px;
+  color: var(--color-white);
+  margin-top: 1rem;
+  font-weight: 300;
+}
+
+.benefitsIcon {
+  display: flex;
+  align-items: center;
+  padding-top: 64px;
+  justify-content: center;
+  gap: 80px;
+}
+
+.benefitsIcon::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(94deg, #9b51e0 2.84%, #3081ed 99.18%);
+  opacity: 0.4;
+  transform: translateY(50%);
+  max-width: var(--max-width);
+  width: 150vh;
+  height: 380px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 750px;
+  border-radius: 99px;
+  filter: blur(100px);
+  z-index: -1;
+}
+
+.BoxIconWrapper p {
+  display: flex;
+  color: var(--color-white);
+  align-items: center;
+  max-width: 18ch;
+}
+
+.BoxIcon {
+  padding: 40px;
+  cursor: pointer;
+  border-radius: 26px;
+  box-shadow: -3.013px 3.013px 3.013px #ffffff63 inset,
+    2.01px -2.01px 20px #d6d6d62b inset;
+  -webkit-backdrop-filter: blur(37.21466827392578px);
+  backdrop-filter: blur(37.21466827392578px);
+}

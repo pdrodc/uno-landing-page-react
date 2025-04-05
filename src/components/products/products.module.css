@@ -1,0 +1,46 @@
+.productsContainer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--color-white);
+  font-size: 20px;
+}
+
+.btnFilter {
+  background-color: var(--color-red);
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.btnFilter:hover {
+  transition: all ease-in-out 0.3s;
+  background-color: #8b0000;
+}
+
+.productsArea {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.productsCard {
+  color: var(--color-white);
+}
+
+.btnBuy {
+  position: relative;
+  top: 1rem;
+  padding: 10px;
+  background-color: var(--color-red);
+  border-radius: 10px;
+}
+
+.btnBuy:hover {
+  transition: all ease-in-out 0.3s;
+  background-color: #8b0000;
+}
+
